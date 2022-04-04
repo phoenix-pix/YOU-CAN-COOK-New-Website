@@ -1,0 +1,314 @@
+Recipes Format: 
+
+Modal boxes that open up by clicking on recipe names <btn> revealing the recipe in question. 
+
+Filter function; filters are: 
+
+Meat
+Fish 
+Vegetarian 
+Vegan 
+Baking 
+Desserts
+
+
+/* Recipes Template Code */ 
+
+    <button class="modal-btn">Recipe Name Here</button>
+      <div class="modal-bg">
+        <div class="modal">
+          <h1 class="recipe-title">Recipe Name Here</h1>
+          <h2 class="ingredients-title">Ingredients:</h2>
+          <ul>
+            <li>#</li>
+            <li>#</li>
+            <li>#</li>
+            <li>#</li>
+            <li>#</li>
+            <li>#</li>
+            <li>#</li>
+            <li>#</li>
+            <li>#</li>
+            <li>#</li>
+          </ul>
+        <h3>Instructions:</h3>
+        <div class="recipe-main">
+        <p>#</p>
+        <p>#</p>
+        <p>#</p>
+        <p>#</p>
+        <p>#</p>
+        <p>#</p>
+        <p class="serving suggestion">#</p>
+        <p class="copyright"> ©You Can Cook</p>
+      </div>
+        <span class="modal-close">X</span>
+      </div>
+    </div>
+
+/* End of Template */
+
+
+
+/* Copyright for ease of access */ 
+  ©You Can Cook 
+
+/* Accordion Template */
+
+  <div class="accordion">
+    <div class="accordion-item">
+      <div class="accordion-item-header">
+        #
+      </div>
+      <div class="accordion-item-body">
+        <div class="accordion-item-body-content">
+            <h3>Ingredients:</h3>
+            <ul>
+              <li>#</li>
+              <li>#</li>
+              <li>#</li>
+              <li>#</li>
+              <li>#</li>
+              <li>#</li>
+            </ul>
+          <h3>Instructions</h3>
+          <p>#</p>
+          <p>#</p>
+          <p>#</p>
+          <h6>©You Can Cook</h6>
+        </div>
+      </div>
+    </div>
+
+
+
+/* Media Queries */
+@media all and (min-width:320px){
+
+}
+
+@media all and (min-width:760px){
+
+}
+
+
+@media all and (min-width:1000px){
+
+}
+
+
+
+
+/* Recipe Filter */
+
+<!-- Recipe Filter Here -->
+<style visibility="hidden">
+      <div class="recipe-filter">
+        <button class="btn-f active" onClick="filterSelection('all')">Show All Recipes</button>
+        <button class="btn-f" onClick="filterSelection('meat')">Meat Recipes</button>
+        <button class="btn-f" onClick="filterSelection('fish')">Fish Recipes</button>
+        <button class="btn-f" onClick="filterSelection('vegetarian')">Vegetarian Recipes</button>
+        <button class="btn-f" onClick="filterSelection('vegan')">Vegan Recipes</button>
+        <button class="btn-f" onClick="filterSelection('baking')">Baking Recipes</button>
+        <button class="btn-f" onClick="filterSelection('desserts')">Dessert Recipes</button>
+     </div>
+</style>
+
+
+<b><span class="add-capital">
+
+
+/* Book code */
+
+<img src="images/reading/-" alt="">
+
+
+<div class="hero-book" id="book">
+</div>
+
+/* Multi-device compatibility from mobile to tablet to desktop */
+
+
+Press Clipping: 
+
+/* Javascript code for switching menus in tablet/desktop view */
+
+  <!-- Javascript for switching between mobile and desktop view -->
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+  <script>
+          $(function() {
+            $(".toggle").on("click", function(){
+
+              if($(".item").hasClass("active")){
+                $(".item").removeClass("active");
+              }
+              else{
+                $(".item").addClass("active");
+              }
+            })
+          });
+    </script>
+
+
+<img src="images/press/ccpledge15.jpg" class="img" loading="lazy" alt="Press Clipping: Climate Change Pledge 2015">
+<!-- Main scripts file -->
+
+
+
+<section>
+  <div>
+  <a href="images/press/ps07192.jpg" data-lightbox="20191"></a>
+  <a href="images/press/ps0719.jpg" data-lightbox="20192"></a>
+  <a href="images/press/pfile519.jpg" data-lightbox="20193"></a>
+  <a href="images/press/ps0119.jpg" data-lightbox="20194"></a>
+  <a href="images/press/pstool.jpg" data-lightbox="20195"></a>
+  <a href="images/press/april2019.jpg" data-lightbox="20196"></a>
+  <a href="images/press/aug2019.jpg" data-lightbox="20197"></a>
+  <a href="images/press/jun191.jpg" data-lightbox="20198"></a>
+  <a href="images/press/June191.jpg" data-lightbox="20199"></a>
+  <a href="images/press/mar19.jpg" data-lightbox="201910"></a>
+  <a href="images/press/oct19-1.jpg" data-lightbox="201911"></a>
+  <a href="images/press/oct19-2.jpg" data-lightbox="201912"></a>
+  <a href="images/press/sep19.jpg" data-lightbox="201913"></a>
+</div>
+</section>
+
+
+<a href="images/press/ps1016.jpg" data-lightbox="2008" data-title="test">
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+    <style>
+      #preloader {display:none;}
+    </style>
+  </noscript>
+
+<noscript id="nojs-alert">
+  For full functionality of this site it is necessary to enable JavaScript.
+  Here are the <a href="https://www.enable-javascript.com/" target="_blank" rel="noopener">
+  instructions on how to enable JavaScript in your web browser.</a>
+</noscript>
+
+
+
+
+<style>
+body {
+    height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat, sans-serif;
+    background: linear-gradient(65deg, #6d1d7e, #f4b724, #6bbc46);
+    background-size: 600% 600%;
+    -webkit-animation: Error-background 11s ease infinite;
+    -moz-animation: Error-background 11s ease infinite;
+    animation: Error-background 11s ease infinite;
+}
+
+@-webkit-keyframes Error-background {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes Error-background {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes Error-background {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+.error-page  {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.error-page h1 {
+	color: #FBFEF9;
+	opacity: 0.9;
+}
+.error-page h2 {
+	color: #200122;
+}
+.error-page a {
+	color: #FBFEF9;
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+.error-page a:hover {
+	color: #000100;
+}
+
+@media all and (min-width:320px){
+	.error-page h1 {
+		font-size: 3rem;
+	}
+	.error-page h2 {
+		font-size: 2.5rem;
+	}
+	.error-page a {
+		font-size: 2rem;
+	}
+}
+
+@media all and (min-width:760px){
+	.error-page h1 {
+		font-size: 3.5rem;
+	}
+	.error-page h2 {
+		font-size: 3rem;
+	}
+	.error-page a {
+		font-size: 2.5rem;
+	}
+}
+
+
+@media all and (min-width:1000px){
+	.error-page h1 {
+		font-size: 4rem;
+	}
+	.error-page h2 {
+		font-size: 3.5rem;
+	}
+	.error-page a {
+		font-size: 3rem;
+	}
+}
+ </style>
+
+
+#Remove .html file extensions from view
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+
+1. Link to styles.css instead of styles.min.css 
+2. Reduce font sizes by a couple of points for body and header text 
+3. Increase left/right margins throughout 
+4. Rename .php file  to .html
+ 
+
+4
+3
+1.2
