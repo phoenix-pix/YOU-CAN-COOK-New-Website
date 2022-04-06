@@ -1,0 +1,15 @@
+#Ignore Visual Content 
+images/
+videos/
+
+#Ignore Misc Content
+Google verification file/ 
+Non-minified/
+/Notes.txt
+
+#Ignore Disabled Cookie Content 
+/cookieconsent.css
+/cookieconsent.js
+
+#Ignore Sitemaps 
+/sitemap.xml
