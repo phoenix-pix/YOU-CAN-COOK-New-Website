@@ -1,8 +1,0 @@
-#Rewrite everything to https
-RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-#Error doc redirect
-ErrorDocument 404 http://youcancook.org.uk/pagenotfound.html
-ErrorDocument 500 http://youcancook.org.uk/servererror.html
