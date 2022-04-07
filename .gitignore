@@ -1,10 +1,10 @@
 #Ignore Visual Content 
-git rm --cached images/
-git rm --cached videos/
+git rm --cached /images
+git rm --cached /videos/
 
 #Ignore Misc Content
-git rm --cached Google verification file/ 
-git rm --cached Non-minified/
+git rm --cached /google-verification 
+git rm --cached /Non-minified
 
 #Ignore Sitemaps 
 git rm --cached /sitemap.xml
