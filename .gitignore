@@ -1,5 +1,5 @@
 #Ignore Visual Content 
-images/
+git rm --cached images/
 videos/
 
 #Ignore Misc Content
