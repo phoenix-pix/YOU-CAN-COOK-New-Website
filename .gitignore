@@ -1,15 +1,10 @@
 #Ignore Visual Content 
 git rm --cached images/
-videos/
+git rm --cached videos/
 
 #Ignore Misc Content
-Google verification file/ 
-Non-minified/
-/Notes.txt
-
-#Ignore Disabled Cookie Content 
-/cookieconsent.css
-/cookieconsent.js
+git rm --cached Google verification file/ 
+git rm --cached Non-minified/
 
 #Ignore Sitemaps 
-/sitemap.xml
+git rm --cached /sitemap.xml
